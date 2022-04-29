@@ -60,7 +60,7 @@ module.exports = {
   //Adding friend
   addFriend({ params }, res) {
     User.findOneAndUpdate(
-      { _id: req.params.userId },
+      { _id: params.userId },
       { $addToSet: { friends: params.friendId } },
       { runValidator: true, new: true }
     )
