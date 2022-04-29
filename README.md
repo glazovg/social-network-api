@@ -64,7 +64,8 @@ DELETE `api/thoughts/:thoughtId`
 
 DELETE `api/users/:userId/friends/:friendId`
 
-    
+[Walkthrough Video](https://watch.screencastify.com/v/yA50OowUfiJ2xGLanyov)
+
 <a name="license"></a>
 ## License
 Licensed under the ISC License (ISC).
